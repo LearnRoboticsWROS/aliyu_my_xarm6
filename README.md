@@ -1,4 +1,4 @@
-# 🦾 FAIRINO + MoveIt 2 Integration (ROS 2 Humble)
+# 🦾 XARM6 + GAZEBO + MoveIt 2 Integration (ROS 2 Humble)
 
 This guide explains how to simulate xarm6 robot using the official repository of xarm_ros2 repository provided by U_FACTORY. This package takes the key file of the official repository to custom needs, meaning setting up the position of the robot
 with the respect of the world, setup a camera by creating a new urdf.xacro file and create a custom world. The camera is simulated, so from the official Orbbec package we use only the .stl. the data of the topic /camera/image_raw and /camera/points
